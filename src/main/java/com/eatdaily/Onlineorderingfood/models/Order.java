@@ -31,5 +31,5 @@ public class Order {
     @OneToMany
     private List<OrderItem> items;
     private int totalItem;
-    private int totalPrice;
+    private Long totalPrice;
 }
